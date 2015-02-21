@@ -1,0 +1,15 @@
+template<typename Object>
+void Binary_tree<Object>::f() {
+     stack< Binary_tree_node<Object> * > stk;
+     
+      stk.push( root );
+      while ( !stk.empty() ) { 
+          Binary_tree_node<Object> *ptr = stk.pop();
+          if ( right() != 0 ) {
+              stk.push( right() ); }
+          if ( left() != 0 ) { 
+              stk.push( left () );
+            }
+std::cout << ptr->retrieve() << std::endl;
+} 
+}
