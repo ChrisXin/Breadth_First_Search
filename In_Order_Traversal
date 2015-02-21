@@ -1,3 +1,5 @@
+// performs an in order traversal using a stack data structure
+
 template<typename Object>
 void Binary_tree<Object>::f() {
      stack< Binary_tree_node<Object> * > stk;
