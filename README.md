@@ -12,10 +12,7 @@ Memory is potentially expensive:  maximum nodes at a given depth
 
 Depth first traversals:
 visit always go as deep as possible before visiting other siblings
-
-Pre-order
-in-order
-post-order
+it includes Pre-order in-order and post-order.
 
 
 
