@@ -1,0 +1,10 @@
+template<typename Object>
+void Binary_tree_node<Object>::g() {
+  if ( this == 0 ) {
+    return; 
+    }
+
+  std::cout << retrieve() << std::endl; 
+  left()->g();  
+  right()->g();
+}
