@@ -16,6 +16,7 @@ it includes Pre-order in-order and post-order.
 
 In-order traversal can be performed using data structure stack.
 
+Other traversals could be performed using recursion call.
 
 
 
